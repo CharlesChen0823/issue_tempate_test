@@ -9,9 +9,9 @@ body:
         label: Which os
         description: Select which os current using.
         options:
-          - label: "os:win"
-          - label: "os:mac"
-          - label: "os:linux"
+          - "os:win"
+          - "os:mac"
+          - "os:linux"
       validations:
         required: true
 
