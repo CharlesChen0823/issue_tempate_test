@@ -4,7 +4,7 @@ description: |
     Tip: open this issue template from within Zed with the `file bug report` command palette action.
 labels: ["admin read", "triage", "defect"]
 body:
-    - type: checkboxes
+    - type: dropdown
       attributes:
         label: Which os
         description: Select which os current using.
