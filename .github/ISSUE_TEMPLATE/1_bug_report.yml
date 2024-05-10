@@ -6,6 +6,17 @@ labels: ["admin read", "triage", "defect"]
 body:
     - type: checkboxes
       attributes:
+        label: Which os
+        description: Select which os current using.
+        options:
+          - label: "os:win"
+          - label: "os:mac"
+          - label: "os:linux"
+        validations:
+          required: true
+
+    - type: checkboxes
+      attributes:
           label: Check for existing issues
           description: Check the backlog of issues to reduce the chances of creating duplicates; if an issue already exists, place a `+1` (👍) on it.
           options:
