@@ -12,6 +12,8 @@ body:
           - label: "os:win"
           - label: "os:mac"
           - label: "os:linux"
+      validations:
+        required: true
 
     - type: checkboxes
       attributes:
