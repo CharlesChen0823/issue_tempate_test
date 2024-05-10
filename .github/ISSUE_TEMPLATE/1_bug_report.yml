@@ -13,7 +13,7 @@ body:
           - label: "os:mac"
           - label: "os:linux"
         validations:
-          required: true
+          required: false
 
     - type: checkboxes
       attributes:
